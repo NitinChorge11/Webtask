@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* header  */
+#img-1 {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 15px;
+}
+#header::before {
+  content: "";
+  position: absolute;
+  background-image: url("/media/fooldal-4-1340x366.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  background-color: #0008;
+  background-blend-mode: darken;
+}
+#sec-1 {
+  color: #fff;
+}
+#header .btn-1 {
+  height: 40px;
+}
+#inputPassword5 {
+  width: 250px;
+  margin: -5px;
+  display: inline-block;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#inputPassword6 {
+  width: 250px;
+  margin: -5px;
+  display: inline-block;
+  border-radius: 0;
+}
+#btn-sec-1 {
+  margin: 0 0 2px -5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+@media (max-width: 575px) {
+  #inputPassword5 {
+    width: 250px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  #inputPassword6 {
+    width: 250px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  #btn-sec-1 {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .wrapper {
+    display: none;
+    position: fixed;
+
+    right: 18% !important;
+    top: 27%;
+  }
+}
+/* section-2  */
+#sec-2 {
+  margin-top: 150px;
+}
+#sec-2id .card {
+  box-shadow: 0 0 5px #aaa;
+}
+.card-1 {
+  height: 400px;
+  padding: 5px;
+}
+.fa-shopping-bag {
+  font-size: 25px;
+  background-color: rgb(162, 179, 220);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+  color: rgb(113, 113, 239);
+}
+#nitin {
+  background-color: #ddd;
+}
+/* sec-3  */
+#sec-3div {
+  background-color: rgb(231, 240, 251);
+  /* height: 500px; */
+}
+#sec-3btn {
+  box-shadow: 0 0 5px #555;
+}
+.icon {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* sec-4  */
+#sec-4::before {
+  content: "";
+  position: absolute;
+  background-image: url("/media/Laptop-iStock.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  background-color: #0009;
+  background-blend-mode: darken;
+}
+/* sec-5  */
+#secone-5 ul li a {
+  text-decoration: none;
+  box-shadow: 5px 5px 2px -3px #ddd;
+  background-color: rgb(232, 238, 252);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #666;
+  margin: 0px 5px;
+}
+#secone-5 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#secone-5 ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+#secone-5 ul li a:hover {
+  background-color: #0089cf;
+  color: #fff;
+}
+/* sec-6  */
+.show-btn {
+  position: fixed;
+  right: 3%;
+  top: 25%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  background-color: tomato;
+  color: #fff;
+}
+.show-btn i {
+  margin: 10px 10px;
+  font-size: 30px;
+}
+#show:checked ~ .wrapper {
+  display: block;
+}
+.wrapper {
+  display: none;
+  position: fixed;
+  right: 10%;
+  top: 27%;
+}
+#show {
+  position: fixed;
+  right: 5%;
+  top: 27%;
+}
+.wrapper input {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px #aaa;
+  padding: 6px 0 6px 8px;
+}
+.wrapper {
+  animation: popup 1s;
+}
+@keyframes popup {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
